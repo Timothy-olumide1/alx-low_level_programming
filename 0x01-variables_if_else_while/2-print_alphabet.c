@@ -9,7 +9,6 @@
 int main(void)
 {
 	char afabets;
-	
 	for (afabets = 'a'; afabets <= 'z'; afabets++)
 		putchar(afabets);
 	putchar('\n');
