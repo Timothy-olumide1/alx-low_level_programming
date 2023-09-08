@@ -8,13 +8,13 @@
  */
 int main(void)
 {
-        char afabets;
+	char afabets;
 
-        for (afabets = 'a'; afabets <= 'z'; afabets++)
-                putchar(afabets);
+	for (afabets = 'a'; afabets <= 'z'; afabets++)
+		putchar(afabets);
         for (afabets = 'A'; afabets <= 'Z'; afabets++)
-                putchar(afabets);
-        putchar('\n');
+		putchar(afabets);
+	putchar('\n');
 
-        return (0);
+	return (0);
 }
