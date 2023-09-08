@@ -12,7 +12,7 @@ int main(void)
 
 	for (afabets = 'a'; afabets <= 'z'; afabets++)
 		putchar(afabets);
-        for (afabets = 'A'; afabets <= 'Z'; afabets++)
+	for (afabets = 'A'; afabets <= 'Z'; afabets++)
 		putchar(afabets);
 	putchar('\n');
 
