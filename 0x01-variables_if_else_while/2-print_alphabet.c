@@ -1,20 +1,17 @@
 #include <stdio.h>
-#include <stdlib.h>
-#include <time.h>
 
 /**
- * main - Entry point
+ * main - Task 2
+ * Description - prints alphabets in lower case
  *
- * Return: Always 0 (Success)
+ * Return: Always (0)
  */
-
 int main(void)
 {
-	char low;
+        char afabets;
 
-	for (low = 'a'; low <= 'z'; low++)
-		putchar(low);
-		putchar('\n');
-
-	return (0);
+        for (afabets = 'a'; afabets <= 'z'; afabets++)
+        putchar(afabets);
+        putchar('\n');
+        return (0);
 }
